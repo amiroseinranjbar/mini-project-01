@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.17)  18 AUG 2026 01:37
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.17)  18 AUG 2026 04:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,102 +705,87 @@ Package hyperref Info: Link coloring ON on input line 106.
 \openout3 = `report.out'.
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 191--193
+Underfull \hbox (badness 1910) in paragraph at lines 195--197
 [][]\TU/Vazirmatn(0)/m/n/10 برچسب صفر نشان‌دهنده تراکنش سالم و برچسب یک[]
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 207--210
+Underfull \hbox (badness 1448) in paragraph at lines 211--214
 []\TU/Vazirmatn(0)/m/n/10 مراحل پیش‌پردازش شامل بررسی مقادیر گمشده، داده‌های[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
+Underfull \hbox (badness 10000) in paragraph at lines 215--219
 [][]\TU/Vazirmatn(0)/m/n/10 همان‌طور که در بررسی اولیه داده‌ها مشاهده شد،[]
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 211--215
+Underfull \hbox (badness 1546) in paragraph at lines 215--219
 []\TU/Vazirmatn(0)/m/n/10 مجموعه‌داده دارای تعدادی مقدار تکراری بود. از آنجا که[]
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 223.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 227.
 (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 223.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 227.
  (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Vazirmatn(2)/bx/n' in size <10> not available
-(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 223.
+(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 227.
 LaTeX Font Info:    Font shape `TU/Vazirmatn(2)/bx/n' in size <7> not available
-(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 223.
+(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 227.
 LaTeX Font Info:    Font shape `TU/Vazirmatn(2)/bx/n' in size <5> not available
-(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 223.
+(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 227.
 
 
 LaTeX Font Warning: Font shape `TU/Vazirmatn(2)/m/it' undefined
-(Font)              using `TU/Vazirmatn(2)/m/n' instead on input line 223.
+(Font)              using `TU/Vazirmatn(2)/m/n' instead on input line 227.
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 239--243
+Underfull \hbox (badness 2318) in paragraph at lines 243--247
 [][]\TU/Vazirmatn(0)/m/n/10 همان‌طور که مشاهده می‌شود، تعداد کل تراکنش‌ها از[]
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 239--243
+Underfull \hbox (badness 1142) in paragraph at lines 243--247
 []\TU/Vazirmatn(1)/m/n/10 ۲۸۴۸۰۷ \TU/Vazirmatn(0)/m/n/10 به \TU/Vazirmatn(1)/m/n/10 ۲۸۴۳۱۵ \TU/Vazirmatn(0)/m/n/10 کاهش یافته است. همچنین تعداد[]
- []
-
-
-Underfull \hbox (badness 6157) in paragraph at lines 261--263
-[][]\TU/Vazirmatn(0)/m/n/10 در این پژوهش چند الگوریتم مختلف برای تشخیص[]
  []
 
 [1
 
 ]
-Underfull \hbox (badness 1383) in paragraph at lines 378--389
+Underfull \hbox (badness 1924) in paragraph at lines 329--331
+[][]\TU/Vazirmatn(0)/m/n/10 از آنجا که KNN به فاصله بین نمونه‌ها وابسته است،[]
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 365--369
+[][]\TU/Vazirmatn(0)/m/n/10 در این پژوهش برای مقابله با عدم توازن کلاس‌ها از[]
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 467--471
 [][]\TU/Vazirmatn(0)/m/n/10 از پارامترهای مهم XGBoost می‌توان به تعداد درخت‌ها[]
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 378--389
+Underfull \hbox (badness 3514) in paragraph at lines 467--471
 []\TU/Vazirmatn(0)/m/n/10 ([]\TU/TimesNewRoman(0)/m/n/10 n_estimators[]\TU/Vazirmatn(0)/m/n/10 )، عمق درخت ([]\TU/TimesNewRoman(0)/m/n/10 max_depth[]\TU/Vazirmatn(0)/m/n/10 ) و نرخ یادگیری[]
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 422--424
+Underfull \hbox (badness 1028) in paragraph at lines 497--499
 [][]\TU/Vazirmatn(0)/m/n/10 در مسئله تشخیص تقلب، تعداد نمونه‌های کلاس تقلب[]
  []
 
-
-Underfull \hbox (badness 1845) in paragraph at lines 500--504
-[][]\TU/Vazirmatn(0)/m/n/10 به منظور بهبود عملکرد مدل‌ها، علاوه بر آموزش اولیه،[]
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 500--504
-[]\TU/Vazirmatn(0)/m/n/10 پارامترهایی هستند که پیش از فرآیند آموزش مدل تعیین[]
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 511--514
-[][]\TU/Vazirmatn(0)/m/n/10 برای مدل درخت تصمیم، پارامترهایی مانند []\TU/TimesNewRoman(0)/m/n/10 max_depth[]\TU/Vazirmatn(0)/m/n/10 ،[]
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 511--514
-[][]\TU/TimesNewRoman(0)/m/n/10 min_samples_split[] \TU/Vazirmatn(0)/m/n/10 و []\TU/TimesNewRoman(0)/m/n/10 min_samples_leaf[] \TU/Vazirmatn(0)/m/n/10 مورد بررسی قرار[]
- []
-
 [2]
-Underfull \hbox (badness 1577) in paragraph at lines 655--659
-[][]\TU/Vazirmatn(0)/m/n/10 همچنین برای یافتن تنظیمات مناسب مدل، روش Grid[]
+Overfull \hbox (11.78285pt too wide) in paragraph at lines 737--752
+ [][][][] 
  []
 
-[3] (report.aux)
+[3] [4] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -810,15 +795,15 @@ L3 programming layer <2026-07-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: A33BB10C26ED9DAFDEC2C766BE38E7A4;1974.
+(rerunfilecheck)             Checksum: A8D5AD18F3FE954EA81A7E886A2EAD60;3346.
  ) 
 Here is how much of TeX's memory you used:
- 16193 strings out of 402620
- 335286 string characters out of 5439090
- 826082 words of memory out of 5000000
- 45015 multiletter control sequences out of 15000+600000
- 630140 words of font info for 94 fonts, out of 8000000 for 9000
+ 16200 strings out of 402620
+ 335356 string characters out of 5439090
+ 827082 words of memory out of 5000000
+ 45023 multiletter control sequences out of 15000+600000
+ 630132 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,107p,1186b,347s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,1186b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (3 pages, 128224 bytes).
+Output written on report.xdv (4 pages, 151816 bytes).
