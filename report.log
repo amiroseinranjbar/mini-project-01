@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.17)  18 AUG 2026 04:19
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.17)  18 AUG 2026 05:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,32 +756,32 @@ Underfull \hbox (badness 1142) in paragraph at lines 243--247
 [1
 
 ]
-Underfull \hbox (badness 1924) in paragraph at lines 329--331
+Underfull \hbox (badness 1924) in paragraph at lines 331--333
 [][]\TU/Vazirmatn(0)/m/n/10 از آنجا که KNN به فاصله بین نمونه‌ها وابسته است،[]
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 365--369
+Underfull \hbox (badness 3068) in paragraph at lines 367--371
 [][]\TU/Vazirmatn(0)/m/n/10 در این پژوهش برای مقابله با عدم توازن کلاس‌ها از[]
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 467--471
+Underfull \hbox (badness 1383) in paragraph at lines 469--473
 [][]\TU/Vazirmatn(0)/m/n/10 از پارامترهای مهم XGBoost می‌توان به تعداد درخت‌ها[]
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 467--471
+Underfull \hbox (badness 3514) in paragraph at lines 469--473
 []\TU/Vazirmatn(0)/m/n/10 ([]\TU/TimesNewRoman(0)/m/n/10 n_estimators[]\TU/Vazirmatn(0)/m/n/10 )، عمق درخت ([]\TU/TimesNewRoman(0)/m/n/10 max_depth[]\TU/Vazirmatn(0)/m/n/10 ) و نرخ یادگیری[]
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 497--499
+Underfull \hbox (badness 1028) in paragraph at lines 499--501
 [][]\TU/Vazirmatn(0)/m/n/10 در مسئله تشخیص تقلب، تعداد نمونه‌های کلاس تقلب[]
  []
 
 [2]
-Overfull \hbox (11.78285pt too wide) in paragraph at lines 737--752
+Overfull \hbox (11.78285pt too wide) in paragraph at lines 739--754
  [][][][] 
  []
 
@@ -804,6 +804,6 @@ Here is how much of TeX's memory you used:
  45023 multiletter control sequences out of 15000+600000
  630132 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,107p,1186b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,1186b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (4 pages, 151816 bytes).
+Output written on report.xdv (4 pages, 153556 bytes).
