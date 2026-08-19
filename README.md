@@ -1,166 +1,116 @@
-# 🧠 Fraud Detection — Hypothesis Before Modeling
+# 💳 Credit Card Fraud Detection
 
-> 🎯 **Goal:** Predict fraudulent financial transactions using machine learning models.
+## 📌 Project Overview
 
----
+This project focuses on detecting fraudulent credit card transactions using machine learning.
 
-## 🔬 7. Hypothesis Before Modeling
+The dataset is highly imbalanced, meaning that legitimate transactions are much more common than fraudulent ones. Therefore, the main goal is not simply to achieve high accuracy, but to correctly identify fraudulent transactions while keeping false alarms under control.
 
-Before training the models, the following hypotheses were formulated based on the characteristics of the fraud detection problem.
+Several machine learning models are evaluated and compared, including:
 
----
+- Logistic Regression
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- XGBoost
+- Ensemble Model
 
-### 1️⃣ Which model is expected to perform best?
-
-🟦 **Hypothesis**
-
-I expect the **XGBoost** model to perform best for fraud detection because it can capture complex and nonlinear relationships between features. 
-
-I also expect **Random Forest** to perform strongly because combining multiple decision trees can reduce variance and improve generalization.
-
-As baseline models, I expect **Decision Tree** and **KNN** to perform reasonably well, while **Logistic Regression** may have lower performance because of its linear decision boundary.
+The models are evaluated mainly using **Precision, Recall, F1-score, and PR-AUC**.
 
 ---
 
-### 2️⃣ Which metric is more important?
+# 🧠 Hypothesis Before Modeling
 
-🟩 **Hypothesis**
+### 1. Which model do you expect to perform best?
 
-I expect **Recall** to be particularly important because failing to detect a fraudulent transaction means that a fraudulent transaction is classified as legitimate.
+I expect the more advanced nonlinear models, such as **Random Forest and XGBoost**, to perform better than Logistic Regression because they can capture more complex relationships between the features.
 
-However, maximizing Recall alone is not sufficient. A model could achieve high Recall by predicting many legitimate transactions as fraudulent.
-
-Therefore, **Precision and F1-score** should also be considered.
-
-> **Main priority:** Recall  
-> **Additional considerations:** Precision + F1-score
+I also expect KNN to perform reasonably well because fraud detection can depend on similarities between transactions.
 
 ---
 
-### 3️⃣ What happens if all transactions are predicted as legitimate?
+### 2. Which metric is more important?
 
-🟥 **Hypothesis**
+**Recall** is particularly important because a false negative means that a fraudulent transaction is classified as legitimate.
 
-If the model predicts every transaction as **legitimate (class 0)**, the accuracy may still be extremely high because fraudulent transactions represent only a very small portion of the dataset.
-
-However:
-
-- **Recall → 0**
-- **Precision → 0** for the fraud class
-- **F1-score → 0** for the fraud class
-
-Therefore, **Accuracy alone is misleading for this highly imbalanced dataset.**
+However, maximizing Recall alone can produce many false positives. Therefore, **F1-score** is also important because it provides a balance between Precision and Recall.
 
 ---
 
-### 4️⃣ Will feature scaling affect KNN?
+### 3. What happens if the model predicts all transactions as legitimate?
 
-🟨 **Hypothesis**
+The model would achieve a very high **Accuracy** because legitimate transactions dominate the dataset.
 
-Yes. I expect feature scaling to significantly affect **KNN** performance.
+However, its **Recall for the fraud class would be 0**, since it would fail to detect any fraudulent transaction.
 
-KNN relies on distance calculations between samples. If different features have very different scales, features with larger numerical values can dominate the distance calculation.
-
-Therefore, **StandardScaler** is expected to improve the performance and reliability of KNN.
+Therefore, Accuracy is not a reliable metric for this highly imbalanced dataset.
 
 ---
 
-### 5️⃣ Will the Decision Tree overfit?
+### 4. Does feature scaling affect KNN?
 
-🟧 **Hypothesis**
+Yes. I expect feature scaling to have a significant effect on KNN because KNN relies directly on distances between samples.
 
-I expect the Decision Tree to have a risk of **overfitting**, especially when the tree becomes too deep.
+Without scaling, features with larger numerical ranges could dominate the distance calculation.
 
-A very deep tree can learn highly specific patterns from the training data instead of learning general patterns.
+---
 
-Therefore, hyperparameters such as:
+### 5. Do you expect the Decision Tree to overfit?
 
-- `max_depth`
-- `min_samples_split`
-- `min_samples_leaf`
+Yes. Decision Trees can easily become complex and fit noise in the training data, especially when the tree is allowed to grow deeply.
 
-should be tuned to control the complexity of the tree.
+Therefore, parameters such as `max_depth`, `min_samples_split`, and `min_samples_leaf` need to be tuned to control overfitting.
 
 ---
 
 # 📊 After Training Analysis
 
-After training and evaluating the models, the initial hypotheses can be compared with the actual results.
+### Was the initial hypothesis correct?
+
+The results showed that the nonlinear models performed better than Logistic Regression for detecting the minority fraud class.
+
+The best-performing models achieved higher **Recall and F1-score** than Logistic Regression, supporting the initial hypothesis that more flexible models can capture relationships that a linear model may miss.
 
 ---
 
-## 🏆 Model Performance
+### Which model performed best?
 
-| Model | Precision | Recall | F1-score | Expected |
-|:------|:---------:|:------:|:--------:|:--------:|
-| 🌳 Decision Tree | 0.92 | 0.71 | 0.80 | Good |
-| 📍 KNN | 0.96 | 0.72 | 0.82 | Good |
-| 📈 Logistic Regression | 0.85 | 0.58 | 0.69 | Baseline |
-| 🚀 XGBoost | — | — | — | Expected Best |
-| 🌲 Random Forest | — | — | — | Expected Strong |
+Among the simple models, **KNN** achieved a fraud-class:
 
-> **Note:** XGBoost and Random Forest results will be added after completing their experiments.
+- **Precision:** 0.96
+- **Recall:** 0.72
+- **F1-score:** 0.82
 
----
+Decision Tree achieved an F1-score of **0.80**, while Logistic Regression achieved **0.69**.
 
-## 🔍 Was the Initial Hypothesis Correct?
-
-The initial hypothesis that nonlinear models would perform better than Logistic Regression was supported by the results.
-
-### 📌 Observed Results
-
-**KNN** achieved:
-
-- 🎯 Precision: **0.96**
-- 🔎 Recall: **0.72**
-- ⚖️ F1-score: **0.82**
-
-**Decision Tree** achieved:
-
-- 🎯 Precision: **0.92**
-- 🔎 Recall: **0.71**
-- ⚖️ F1-score: **0.80**
-
-**Logistic Regression** achieved:
-
-- 🎯 Precision: **0.85**
-- 🔎 Recall: **0.58**
-- ⚖️ F1-score: **0.69**
-
-Therefore, among the evaluated baseline models, **KNN achieved the highest F1-score and Precision for the fraud class.**
+Therefore, KNN performed better than the other simple baseline models in this experiment.
 
 ---
 
-## ⚖️ Class Imbalance
+### Which metric was most informative?
 
-The dataset is **highly imbalanced**, with legitimate transactions greatly outnumbering fraudulent transactions.
+**Recall and F1-score** were more informative than Accuracy.
 
-This imbalance means that a model can achieve very high Accuracy while still failing to detect a significant number of fraudulent transactions.
-
-Therefore, metrics such as:
-
-> **Recall · Precision · F1-score · PR-AUC**
-
-are more informative than Accuracy alone.
+Recall shows how many fraudulent transactions were successfully detected, while F1-score provides a balance between detecting fraud and avoiding false alarms.
 
 ---
 
-## 🚨 False Positives vs False Negatives
+### How did class imbalance affect the results?
 
-There are two important types of errors:
+The dataset contains a very large number of legitimate transactions and only a small number of fraudulent transactions.
 
-| Error | Meaning | Consequence |
-|:------|:--------|:------------|
-| ❌ **False Positive (FP)** | Legitimate transaction predicted as fraud | Unnecessary investigation / false alarm |
-| ⚠️ **False Negative (FN)** | Fraudulent transaction predicted as legitimate | Fraud remains undetected |
+As a result, models can achieve almost perfect Accuracy while still missing a considerable number of fraudulent transactions.
 
-For fraud detection, **False Negatives are particularly important** because they represent fraudulent transactions that were missed by the model.
+This is why the performance of the minority class was analyzed separately.
 
-However, reducing False Negatives by aggressively increasing Recall can increase False Positives.
+---
 
-Therefore, the main objective is to find a suitable balance between:
+### False Positives vs. False Negatives
 
-```text
-Recall  ↔  Precision
-       ↓
-    F1-score
+A **False Positive** occurs when a legitimate transaction is incorrectly classified as fraud.
+
+A **False Negative** occurs when a fraudulent transaction is classified as legitimate.
+
+In fraud detection, False Negatives are particularly important because they represent undetected fraud. However, too many False Positives can also negatively affect the user experience.
+
+Therefore, the goal is to achieve a suitable balance between Precision and Recall rather than optimizing only one of them.
