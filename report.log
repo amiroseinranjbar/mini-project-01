@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.17)  18 AUG 2026 05:37
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.8.17)  19 AUG 2026 03:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -515,6 +515,53 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box59
 ) (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/bidi\float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package for XeTeX engine
+) (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count376
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box60
+)
+\tc@llx=\dimen185
+\tc@lly=\dimen186
+\tc@urx=\dimen187
+\tc@ury=\dimen188
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+) (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/bidi\tc-xetex-xetex-bidi.def
+File: tc-xetex-xetex-bidi.def 2014/07/08 v0.1 bidi adaptations for Clipping driver for XeTeX engine
+))
+\adjbox@Width=\dimen189
+\adjbox@Height=\dimen190
+\adjbox@Depth=\dimen191
+\adjbox@Totalheight=\dimen192
+\adjbox@pwidth=\dimen193
+\adjbox@pheight=\dimen194
+\adjbox@pdepth=\dimen195
+\adjbox@ptotalheight=\dimen196
+ (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count377
+) (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count378
+\@vwid@loff=\dimen197
+\@vwid@roff=\dimen198
+)
+==> First Aid for varwidth.sty applied!
 )
 
 Package fontspec Info: 
@@ -595,7 +642,7 @@ Package fontspec Info:
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"Vazirmatn/BI/OT:script=latn;language=dflt;+smcp;"
 
-Package unicode-persianmath Info: DefiningthedefaultPersianmathdigitsfontas'Vazirmatn' on input line 38.
+Package unicode-persianmath Info: DefiningthedefaultPersianmathdigitsfontas'Vazirmatn' on input line 39.
 \sympersianoperators=\mathgroup6
 \sympersianoperatorsbf=\mathgroup7
 \sympersianoperatorsit=\mathgroup8
@@ -627,33 +674,33 @@ Package fontspec Info:
 (fontspec)             <->"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \latinfont on input line 39.
-Package hyperref Info: Option `colorlinks' set `true' on input line 100.
+LaTeX Info: Redefining \latinfont on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 101.
  (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/bidi\float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package for XeTeX engine
 ) (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -699,93 +746,121 @@ Package color Info: Driver file: xetex.def on input line 149.
 File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package for XeTeX engine
 LaTeX Info: Redefining \color on input line 50.
 )
-Package hyperref Info: Link coloring ON on input line 106.
+Package hyperref Info: Link coloring ON on input line 107.
  (report.out) (report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 195--197
+Underfull \hbox (badness 1910) in paragraph at lines 194--196
 [][]\TU/Vazirmatn(0)/m/n/10 برچسب صفر نشان‌دهنده تراکنش سالم و برچسب یک[]
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 211--214
+Underfull \hbox (badness 1448) in paragraph at lines 210--213
 []\TU/Vazirmatn(0)/m/n/10 مراحل پیش‌پردازش شامل بررسی مقادیر گمشده، داده‌های[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--219
+Underfull \hbox (badness 10000) in paragraph at lines 214--218
 [][]\TU/Vazirmatn(0)/m/n/10 همان‌طور که در بررسی اولیه داده‌ها مشاهده شد،[]
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 215--219
+Underfull \hbox (badness 1546) in paragraph at lines 214--218
 []\TU/Vazirmatn(0)/m/n/10 مجموعه‌داده دارای تعدادی مقدار تکراری بود. از آنجا که[]
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 227.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 228.
 (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 227.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 228.
  (C:\Users\Amir\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Vazirmatn(2)/bx/n' in size <10> not available
-(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 227.
+(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `TU/Vazirmatn(2)/bx/n' in size <7> not available
-(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 227.
+(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `TU/Vazirmatn(2)/bx/n' in size <5> not available
-(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 227.
+(Font)              Font shape `TU/Vazirmatn(2)/b/n' tried instead on input line 228.
 
 
 LaTeX Font Warning: Font shape `TU/Vazirmatn(2)/m/it' undefined
-(Font)              using `TU/Vazirmatn(2)/m/n' instead on input line 227.
+(Font)              using `TU/Vazirmatn(2)/m/n' instead on input line 228.
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 243--247
+Underfull \hbox (badness 2318) in paragraph at lines 242--245
 [][]\TU/Vazirmatn(0)/m/n/10 همان‌طور که مشاهده می‌شود، تعداد کل تراکنش‌ها از[]
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 243--247
+Underfull \hbox (badness 1142) in paragraph at lines 242--245
 []\TU/Vazirmatn(1)/m/n/10 ۲۸۴۸۰۷ \TU/Vazirmatn(0)/m/n/10 به \TU/Vazirmatn(1)/m/n/10 ۲۸۴۳۱۵ \TU/Vazirmatn(0)/m/n/10 کاهش یافته است. همچنین تعداد[]
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 287--292
+[][]\TU/TimesNewRoman(0)/m/n/10 max_depth[]\TU/Vazirmatn(0)/m/n/10 ، []\TU/TimesNewRoman(0)/m/n/10 min_samples_split[] \TU/Vazirmatn(0)/m/n/10 و []\TU/TimesNewRoman(0)/m/n/10 min_samples_leaf[] \TU/Vazirmatn(0)/m/n/10 مورد[]
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 293--299
+[][]\TU/Vazirmatn(0)/m/n/10 هایپرپارامتر []\TU/TimesNewRoman(0)/m/n/10 max_depth[] \TU/Vazirmatn(0)/m/n/10 حداکثر عمق درخت را مشخص[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
+[][]\TU/Vazirmatn(0)/m/n/10 پارامتر []\TU/TimesNewRoman(0)/m/n/10 min_samples_leaf[] \TU/Vazirmatn(0)/m/n/10 حداقل تعداد نمونه‌هایی را[]
  []
 
 [1
 
 ]
-Underfull \hbox (badness 1924) in paragraph at lines 331--333
-[][]\TU/Vazirmatn(0)/m/n/10 از آنجا که KNN به فاصله بین نمونه‌ها وابسته است،[]
+Underfull \hbox (badness 1603) in paragraph at lines 360--363
+[][]\TU/Vazirmatn(0)/m/n/10 پس از انتخاب هایپرپارامترها، مدل نهایی با استفاده از[]
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 367--371
-[][]\TU/Vazirmatn(0)/m/n/10 در این پژوهش برای مقابله با عدم توازن کلاس‌ها از[]
+Underfull \hbox (badness 1648) in paragraph at lines 360--363
+[]\TU/Vazirmatn(0)/m/n/10 داده‌های آموزشی آموزش داده شد و سپس روی مجموعه[]
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 469--473
+Underfull \hbox (badness 1442) in paragraph at lines 449--451
+[][]\TU/Vazirmatn(0)/m/n/10 پارامتر []\TU/TimesNewRoman(0)/m/n/10 n_neighbors[] \TU/Vazirmatn(0)/m/n/10 یا همان $\OML/cmm/m/it/10 K$\TU/Vazirmatn(0)/m/n/10 ، تعداد همسایه‌هایی را[]
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 526--529
+[][]\TU/Vazirmatn(0)/m/n/10 پس از انتخاب هایپرپارامترها، مدل نهایی با استفاده از[]
+ []
+
+[2]
+Underfull \hbox (badness 1603) in paragraph at lines 699--702
+[][]\TU/Vazirmatn(0)/m/n/10 پس از انتخاب هایپرپارامترها، مدل نهایی با استفاده از[]
+ []
+
+[3]
+Underfull \hbox (badness 1383) in paragraph at lines 873--877
 [][]\TU/Vazirmatn(0)/m/n/10 از پارامترهای مهم XGBoost می‌توان به تعداد درخت‌ها[]
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 469--473
+Underfull \hbox (badness 3514) in paragraph at lines 873--877
 []\TU/Vazirmatn(0)/m/n/10 ([]\TU/TimesNewRoman(0)/m/n/10 n_estimators[]\TU/Vazirmatn(0)/m/n/10 )، عمق درخت ([]\TU/TimesNewRoman(0)/m/n/10 max_depth[]\TU/Vazirmatn(0)/m/n/10 ) و نرخ یادگیری[]
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 499--501
+Underfull \hbox (badness 1028) in paragraph at lines 899--901
 [][]\TU/Vazirmatn(0)/m/n/10 در مسئله تشخیص تقلب، تعداد نمونه‌های کلاس تقلب[]
  []
 
-[2]
-Overfull \hbox (11.78285pt too wide) in paragraph at lines 739--754
- [][][][] 
- []
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[3] [4] (report.aux)
+ [5] (report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -795,15 +870,15 @@ L3 programming layer <2026-07-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: A8D5AD18F3FE954EA81A7E886A2EAD60;3346.
+(rerunfilecheck)             Checksum: BF2D10C0E22B43FC2C1192CC3BBD7C6A;3572.
  ) 
 Here is how much of TeX's memory you used:
- 16200 strings out of 402620
- 335356 string characters out of 5439090
- 827082 words of memory out of 5000000
- 45023 multiletter control sequences out of 15000+600000
- 630132 words of font info for 93 fonts, out of 8000000 for 9000
+ 17310 strings out of 402620
+ 354656 string characters out of 5439090
+ 837551 words of memory out of 5000000
+ 46103 multiletter control sequences out of 15000+600000
+ 630124 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,107p,1186b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,1186b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (4 pages, 153556 bytes).
+Output written on report.xdv (5 pages, 211360 bytes).

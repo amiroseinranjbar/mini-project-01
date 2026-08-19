@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1787056645.80746 "report.xdv" "report.pdf" "report" 1787056646.31998 0
-  "report.xdv" 1787056645 153556 db5fd46e21af5eddbe634a37b05016c4 "xelatex"
+["xdvipdfmx"] 1787136872.76829 "report.xdv" "report.pdf" "report" 1787136873.16123 0
+  "report.xdv" 1787136872 211360 5ea75d5f2ed36595e56fff5586fd3461 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1787056643.74523 "e:/Work/AI/MAKTAB/HW-CW-S02/Mini_Project_01/report.tex" "report.xdv" "report" 1787056646.31487 0
+["xelatex"] 1787136871.12861 "e:/Work/AI/MAKTAB/HW-CW-S02/Mini_Project_01/report.tex" "report.xdv" "report" 1787136873.15732 0
   "C:/Users/Amir/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1786952866 27216144 3290faa77796fc126f30337799913a69 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136801054 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -28,6 +28,12 @@
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty" 1623005277 20089 80423eac55aa175305d35b49e04fe23b ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.sty" 1575105840 21514 b7557edcee22835ef6b03ede1802dad4 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquecounter.sty" 1576434012 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex" 1656236919 19231 27205ee17aaa2902aea3e0c07a3cfc65 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex" 1656236919 7677 9cb1a74d945bc9331f2181c0a59ff34a ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjcalc.sty" 1741085932 5598 c49b91713cbe5e50a1fabefb733eda0d ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjustbox.sty" 1741085932 56907 b74d2bd6fed8dc761953edb2fbea781b ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/tc-xetex.def" 1741085932 4739 d3687709df51dee57b9138a856bb62aa ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/trimclip.sty" 1741085932 7245 2bf1779563af51e666da8f26ea1f8455 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty" 1358197772 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty" 1358197772 13829 94730e64147574077f8ecfea9bb69af4 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd" 1358197772 961 6518c6525a34feb5e8250ffa91731cff ""
@@ -54,7 +60,9 @@
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/bidi/graphicx-xetex-bidi.def" 1767839328 5709 152a62b252123aa393a935f813440efb ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/bidi/hyperref-xetex-bidi.def" 1767839328 16988 3d3cc415a6da5583032f723ede36e0ee ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/bidi/latex-xetex-bidi.def" 1767839332 30374 2e2c4d4a83ebecec7f2515d0663be0d2 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/bidi/tc-xetex-xetex-bidi.def" 1767839332 2350 bbfec673a2b1f71930e054028a4137e0 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/bidi/titlesec-xetex-bidi.def" 1767839332 2564 e4c12921b20dff5536bb064e3f31e2a5 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/collectbox/collectbox.sty" 1667300686 9124 59c3b56f1a073de66e3eea35f9c173c8 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1738917170 52272 63d293bc0d496619edb57585740861a2 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1759409308 46885 8953c67ffba03252c6090aa19568b8ba ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1740138435 31715 19e60610b63819fe670dfa1cd84a4e94 ""
@@ -79,6 +87,7 @@
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty" 1781736619 11459 697f11f6c439d25d39d2674b99566af4 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def" 1781736619 14249 9f74ed7af1e113c8740376df8af31aa7 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def" 1781736619 117118 c21654d7e82a631b4af46ab92e8ebca3 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty" 1667300946 2142 eae42205b97b7a3ad0e58db5fe99e3e6 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty" 1656236481 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1785671204 32892 85ac6261da62685932c0987d688eb8a6 ""
@@ -88,6 +97,7 @@
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xepersian/article-xetex-xepersian.def" 1767171576 1974 ef7b41da2aa601a1cfcc20ffa02673d7 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xepersian/enumitem-xetex-xepersian.def" 1767171576 2215 0f55d7ac7251e22e9db8acb50f7d5934 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xepersian/footnote-xetex-bidi-xetex-xepersian.def" 1767171576 2090 9f60965d407447f9f1faeeea84f22576 ""
@@ -96,12 +106,13 @@
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xepersian/unicode-persianmath.sty" 1767171577 14183 254855080a3a04418bb9e5bf5b46d881 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xepersian/url-xetex-xepersian.def" 1767171577 2006 ac0e9d7be4177945517c6208dff1ecfe ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xepersian/xepersian.sty" 1767171577 50192 51d3c68d037e7cdfccd89d6c1f4544f2 ""
+  "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1773584792 2269 91cd03da61ab1da00145ba8a81560051 ""
   "C:/Users/Amir/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1773584792 20785 8db5f0a2b2ce96dda9fac87ccab29449 ""
-  "e:/Work/AI/MAKTAB/HW-CW-S02/Mini_Project_01/report.tex" 1787056642 32210 c07da670f22529e1ebb57218612ee35e ""
-  "report.aux" 1787056645 4040 c0d32ff3dd2fe6011ccc1657a3a08763 "xelatex"
-  "report.out" 1787056645 3346 a8d5ad18f3fe954ea81a7e886a2ead60 "xelatex"
-  "report.tex" 1787056642 32210 c07da670f22529e1ebb57218612ee35e ""
+  "e:/Work/AI/MAKTAB/HW-CW-S02/Mini_Project_01/report.tex" 1787136868 43032 8df20d639ab4ed70246657c603eea8be ""
+  "report.aux" 1787136872 6573 e72256cf6df5e7908be167f44bc25009 "xelatex"
+  "report.out" 1787136872 3572 bf2d10c0e22b43fc2c1192cc3bbd7c6a "xelatex"
+  "report.tex" 1787136868 43032 8df20d639ab4ed70246657c603eea8be ""
   (generated)
   "report.aux"
   "report.log"
