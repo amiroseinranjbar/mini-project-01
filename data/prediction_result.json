@@ -1,7 +1,7 @@
 {
     "prediction": "Normal",
     "class_id": 0,
-    "probability": 0.0,
+    "probability": 8.674747200492141e-05,
     "threshold": 0.5600000000000002,
     "status": "success"
 }
